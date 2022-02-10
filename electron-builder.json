@@ -1,0 +1,35 @@
+{
+    "directories": {
+        "buildResources": "build-res",
+        "output": "out"
+    },
+    "mac": {
+        "target": "zip",
+        "arch": [
+            "x64",
+            "arm64"
+        ]
+    },
+    "linux": {
+        "target": {
+            "target": [
+                "deb",
+                "rpm",
+                "pacman"
+            ]
+        }
+    },
+    "win": {
+        "target": "nsis",
+        "arch": [
+            "x64",
+            "ia32",
+            "arm64"
+        ]
+    },
+    "nsis": {
+        "oneclick": "false",
+        "perMachine": "false",
+        "allowToChangeInstallationDirectory": "true"
+    }
+}
