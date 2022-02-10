@@ -4,12 +4,13 @@
         "output": "out"
     },
     "mac": {
-        "target": "zip",
-        "arch": [
+        "target": {
+          "target": "default",
+          "arch": [
             "x64",
             "arm64"
-        ]
-    },
+          ]
+        },
     "linux": {
         "target": {
             "target": [
@@ -32,4 +33,5 @@
         "perMachine": "false",
         "allowToChangeInstallationDirectory": "true"
     }
+}
 }
