@@ -10,7 +10,8 @@
             "x64",
             "arm64"
           ]
-        },
+        }
+    },
     "linux": {
         "target": {
             "target": [
@@ -33,5 +34,4 @@
         "perMachine": "false",
         "allowToChangeInstallationDirectory": "true"
     }
-}
 }
